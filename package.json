@@ -1,5 +1,4 @@
 {
-  "homepage": "https://mala-labs.github.io/malalabs3/",
   "name": "xhibiter",
   "version": "1.0.0",
   "description": "",
@@ -9,9 +8,7 @@
     "build": "webpack --config webpack-prod.config.js && rtlcss ./dist/css/style.css ./dist/css/style-rtl.css",
     "build:tailwind": "tailwindcss -i ./src/css/style.css -o ./dist/css/style.css --minify",
     "build:tailwind-unminified": "tailwindcss -i ./src/css/style.css -o ./dist/css/style.css",
-    "rtlcss": "rtlcss ./dist/css/style.css ./dist/css/style-rtl.css",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "rtlcss": "rtlcss ./dist/css/style.css ./dist/css/style-rtl.css"
   },
   "author": "",
   "license": "ISC",
